@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    padding: 1rem 3rem; 
+    display: flex;
+    flex-direction: column;
+    border: 0.1rem solid black;
+    background-color: lightgray;
+}
+
+.container-laboral {
+    width: 80%;
+    height: 100%;
+    padding: 1rem 3rem; 
+    display: flex;
+    flex-direction: column;
+}
+
+.container-estudios {
+    width: 80%;
+    height: 100%;
+    padding: 1rem 3rem; 
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container-datos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-img img {
+    width: 8rem;
+    height: 10rem;
+    border-radius: 1rem;
+}
+
+.container-exp, .container-est {
+    height: 100%;
+}
+
+
+
+
+

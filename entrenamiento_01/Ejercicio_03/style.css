@@ -1,0 +1,73 @@
+body {
+    width: 80%;
+    min-height: 100vh;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+    border: 0.15rem solid #333;
+    background: #fff;
+}
+
+header a { 
+    color: #333; 
+    text-decoration: none; 
+}
+
+.indice-container, .contenido { 
+    margin-top: 4rem; 
+}
+
+.indice-container { 
+    border: 0.15rem solid #333; 
+    padding: 2rem; 
+}
+
+.indice-container ul { 
+    padding-left: 2rem; 
+    margin-top: 0.5rem; 
+}
+
+.indice-container a { 
+    color: #333; 
+}
+
+.receta {
+    background: #d6e4f0;
+    border: 0.1rem solid #a0b8cc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+}
+
+.receta-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.receta-header a { 
+    color: #333; 
+    font-weight: normal; 
+}
+
+.receta-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.receta-header a { 
+    color: #333; 
+    font-weight: normal; 
+}
